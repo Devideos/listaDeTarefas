@@ -82,7 +82,7 @@ body {
 @media (max-width: 500px) {
     #app {
         min-height: 100vh;
-        justify-content: center; /* Centraliza verticalmente */
+        justify-content: center;
     }
     #app p {
         width: 100vw;
