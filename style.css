@@ -1,0 +1,80 @@
+
+/* Garante que html e body ocupem toda a tela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(#4e2a4f, #2d1e2f);
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#app h1 {
+    color: lightyellow;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: #6d4672 2px 2px 8px; /* sombra preta suave */
+}
+
+#app p {
+    color: lightyellow;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#app a {
+    color: rgba(206, 113, 243, 0.822);
+    text-decoration: none;  
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#app input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #6d4672;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+#app button {
+    padding: 10px 50px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    background-color: #6d4672;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#app button:hover {
+    background-color: #5a375e;
+}
+
+#app ul {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+#app ul li a {
+    margin-left: 16px; 
+}
+
+#app ul li {
+    margin-bottom: 12px; /* Ajuste o valor conforme desejar */
+}
