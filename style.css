@@ -1,12 +1,13 @@
 /* Garante que html e body ocupem toda a tela */
 html, body {
-    height: 100%;
+    /* height: 100%; */ /* Remova ou comente esta linha */
     margin: 0;
     padding: 0;
 }
 
 body {
     background-image: linear-gradient(#4e2a4f, #2d1e2f);
+    min-height: 100vh; /* Garante que o body ocupe pelo menos a altura total da tela */
 }
 
 #app {
