@@ -78,3 +78,49 @@ body {
 #app ul li {
     margin-bottom: 12px; /* Ajuste o valor conforme desejar */
 }
+
+
+/* ...existing code... */
+
+/* Responsividade para telas menores */
+@media (max-width: 600px) {
+    #app {
+        padding: 20px 0;
+        height: auto;
+    }
+
+    #app h1 {
+        font-size: 1.6rem;
+        margin-bottom: 14px;
+        text-align: center;
+    }
+
+    #app p {
+        font-size: 1rem;
+        margin-top: 14px;
+        text-align: center;
+    }
+
+    #app input {
+        width: 90vw;
+        min-width: 0;
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    #app button {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+
+    #app ul {
+        font-size: 1.1rem;
+        padding-left: 10px;
+    }
+
+    #app ul li {
+        margin-bottom: 8px;
+        word-break: break-word;
+    }
+}
