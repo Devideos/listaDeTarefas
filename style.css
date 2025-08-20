@@ -15,8 +15,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* Remova ou comente a linha abaixo */
-    /* height: 100vh; */
     width: 100%;
     min-height: 100vh; /* Garante altura mínima de tela cheia */
 }
@@ -25,7 +23,7 @@ body {
     color: lightyellow;
     font-size: 2.5rem;
     margin-bottom: 20px;
-    text-shadow: #6d4672 2px 2px 8px; /* sombra preta suave */
+    text-shadow: #6d4672 2px 2px 8px;
 }
 
 #app p {
