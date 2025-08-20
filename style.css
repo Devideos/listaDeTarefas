@@ -79,7 +79,7 @@ body {
     margin-bottom: 12px; /* Ajuste o valor conforme desejar */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 390px) {
     #app {
         min-height: 100vh;
         justify-content: center; /* Centraliza verticalmente */
